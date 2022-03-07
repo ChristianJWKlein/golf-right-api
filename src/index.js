@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const { getAllCourses, getOneCourse } = require('./courses');
+const { getAllCourses, getOneCourse, rateCourse } = require('./courses');
 
 //const courses = require('./courses.json');
 
@@ -12,7 +12,7 @@ app.use(express.json());
 
 app.get('/courses', getAllCourses);
 app.get('/courses/:id', getOneCourse);
-//app.patch('/courses/:id', rateCourse)
+app.patch('/courses/:id', rateCourse);
 
 app.listen(PORT, () => {
   console.log('Listening on Port: ', PORT);

@@ -1,4 +1,5 @@
 const { connectDb } = require('./connectDb');
+const { updateCourseRating } = require('./services/courses-service');
 
 exports.getAllCourses = (req, res) => {
   const db = connectDb();
@@ -28,4 +29,19 @@ exports.getOneCourse = (req, res) => {
       }
     })
     .catch((err) => res.status(500).send(err));
+};
+
+exports.rateCourse = (req, res) => {
+  const db = connectDb();
+  if (req.body.rating) {
+    updateCourseRating;
+  } else {
+    db.collection('courses')
+      .doc(req.params.id)
+      .update(req.body)
+      .then(() => {
+        this.getAllCourses(req, res);
+      })
+      .catch((err) => res.status(500).send(err));
+  }
 };
