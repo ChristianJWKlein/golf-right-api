@@ -6,6 +6,12 @@ Initial Database Name: golf-right-1 ( Firestore Firebase )
 
 Location: us-east4
 
+## Run Locally
+
+    npm start
+    or
+    node .
+
 ### Packages installed:
 
     git init
