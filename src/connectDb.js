@@ -1,13 +1,15 @@
-import { initializeApp, cert, getApps } from 'firebase-admin/app';
-import { getFirestore } from 'firebase-admin/firestore';
+const { initializeApp, cert, getApps } = require('firebase-admin/app');
+const { getFirestore } = require('firebase-admin/firestore');
 
-import serviceAccount from '../credentials.json';
+const credentials = require('../credentials.json');
 
-export const connectDb = () => {
+const connectDb = () => {
   if (!getApps().length) {
     initializeApp({
-      credential: cert(serviceAccount),
+      credential: cert(credentials),
     });
   }
   return getFirestore();
 };
+
+module.exports = { connectDb };
