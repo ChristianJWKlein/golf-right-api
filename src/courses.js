@@ -14,3 +14,18 @@ exports.getAllCourses = (req, res) => {
     })
     .catch((err) => res.status(500).send(err));
 };
+
+exports.getOneCourse = (req, res) => {
+  const db = connectDb();
+  db.collection('courses')
+    .doc(req.params.id)
+    .get()
+    .then((doc) => {
+      if (doc.exists) {
+        res.send(doc.data());
+      } else {
+        res.status(404).send('No such course!');
+      }
+    })
+    .catch((err) => res.status(500).send(err));
+};
