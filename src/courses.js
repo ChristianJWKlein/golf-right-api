@@ -33,8 +33,8 @@ exports.getOneCourse = (req, res) => {
 
 exports.rateCourse = (req, res) => {
   const db = connectDb();
-  if (req.body.rating) {
-    updateCourseRating;
+  if (req.body && req.body.rating) {
+    updateCourseRating(req, res);
   } else {
     db.collection('courses')
       .doc(req.params.id)

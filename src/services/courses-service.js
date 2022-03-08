@@ -9,29 +9,48 @@ const { connectDb } = require('../../src/connectDb');
 // "bang_for_your_buck": 10
 // }
 
-const updateCourseRating = async (courseId, rating) => {
+exports.updateCourseRating = (req, res) => {
+  const db = connectDb();
   db.collection('courses')
     .doc(req.params.id)
     .get()
     .then((doc) => {
-      const body = req.body.rating;
-      const newRating = Number(req.body.rating);
-      let newRatings = doc.data().ratings || [];
-      newRatings.push(newRating);
-      const newCount = newRatings.length;
-      const newRatingsSum = newRatings.reduce((accum, curr) => accum + curr, 0);
-      const newAvgRating = newRatingsSum / newCount;
-      const newRatingObj = {
-        ratings: newRatings,
-        rating: newAvgRating,
-        numRatings: newCount,
-      };
+      const oldData = doc.data();
+      let newRate = oldData.rate;
+
+      for (const key of Object.keys(req.body.rating)) {
+        const newRating = Number(req.body.rating[key]);
+        let newRatings = oldData.rate.ratings[key] || [];
+        newRatings.push(newRating);
+        // res.send({ key, newRating, newRatings });
+        // return;
+        const newCount = newRatings.length;
+        const newRatingsSum = newRatings.reduce(
+          (accum, curr) => accum + curr,
+          0
+        );
+        const newAvgRating = newRatingsSum / newCount;
+        newRate.rating[key] = newAvgRating;
+        newRate.ratings[key] = newRatings;
+      }
+      // now update overall rating:
+      newRate.overall_rating =
+        (newRate.rating.atmosphere +
+          newRate.rating.amenities +
+          newRate.rating.course_quality +
+          newRate.rating.bang_for_your_buck) /
+        4;
+      res.send(newRate);
+      return;
+      // Zach Wrote for of object loop
       db.collection('courses')
         .doc(req.params.id)
-        .update({ rate: newRatingObj })
+        .update({ rate: newRate })
         .then(() => {
           res.status(200).send(`Thank you for Rating ${req.params.id} `);
         });
     })
     .catch((err) => res.status(500).send(err));
 };
+
+//exports.updateCourseRating
