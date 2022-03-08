@@ -40,9 +40,8 @@ exports.updateCourseRating = (req, res) => {
           newRate.rating.course_quality +
           newRate.rating.bang_for_your_buck) /
         4;
-      res.send(newRate);
-      return;
-      // Zach Wrote for of object loop
+
+      //res.send(newRate);
       db.collection('courses')
         .doc(req.params.id)
         .update({ rate: newRate })
@@ -52,5 +51,3 @@ exports.updateCourseRating = (req, res) => {
     })
     .catch((err) => res.status(500).send(err));
 };
-
-//exports.updateCourseRating

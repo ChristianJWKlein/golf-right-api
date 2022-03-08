@@ -17,3 +17,5 @@ Location: us-east4
     git init
     npm init -y
     npm i express cors firebase-admin
+
+### nodemon ./src
