@@ -1,9 +1,9 @@
-// const courses = require('./courses.json');
-// const { connectDb } = require('./connectDb');
+// const courses = require('../moreCourses.json');
+// const { connectDb } = require('../connectDb');
 
 // const db = connectDb();
 // db.collection('courses')
-//   .add(courses[3])
+//   .add(courses[2])
 //   .then((doc) => {
 //     console.log('added golf course', doc.id);
 //   })

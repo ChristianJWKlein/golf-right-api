@@ -1,0 +1,227 @@
+[
+    {
+    "name": "Sandhill Crane Golf Club",
+    "phone": "(561) 630-1160",
+    "address": "9500 Sandhill Crane Drive",
+    "city": "Palm Beach Gardens",
+    "state": "FL",
+    "zip": "33412",
+    "holes": "18",
+    "img": "https://www.pbgfl.com/ImageRepository/Document?documentID=1797",
+    "alt": "One of the greens at Sandhill Crane Golf Course",
+    "website": "https://www.pbgfl.com/227/Sandhill-Crane-Golf-Club",
+    "type": "public",
+    "rate": {
+        "overall_rating": 7,
+        "rating": {
+            "atmosphere": 6,
+            "amenities": 8.7,
+            "course_quality": 10,
+            "bang_for_your_buck": 4
+        },
+        "ratings": {
+            "atmosphere": [7, 8, 9, 10, 9],
+            "amenities": [8, 9, 8, 10, 7],
+            "course_quality": [6, 8, 9, 10, 8],
+            "bang_for_your_buck": [9, 8, 6, 8, 7]
+        }
+    }
+},
+    {
+    "name": "Okeeheelee Golf Course",
+    "phone": "(561) 964-4653",
+    "address": "7715 Forest Hill Blvd",
+    "city": "West Palm Beach",
+    "state": "FL",
+    "zip": "33413",
+    "holes": "27",
+    "img": "https://www.pbcokeeheeleegolf.com/images/Okee_Eagle9Sunset.jpg",
+    "alt": "Sun setting on lake at the 9th hole green of the heron course at okeeheelee golf course",
+    "website": "https://www.pbcokeeheeleegolf.com/",
+    "type": "public",
+    "rate": {
+        "overall_rating": 8,
+        "rating": {
+            "atmosphere": 7,
+            "amenities": 8.7,
+            "course_quality": 10,
+            "bang_for_your_buck": 8
+        },
+        "ratings": {
+            "atmosphere": [7, 8, 9, 10, 9],
+            "amenities": [8, 9, 8, 10, 7],
+            "course_quality": [6, 8, 9, 10, 8],
+            "bang_for_your_buck": [9, 8, 6, 8, 7]
+        }
+    }
+},
+    {
+    "name": "Palm Beach Par 3 Golf Course",
+    "phone": "(561) 547-0598",
+    "address": "2345 S Ocean Blvd",
+    "city": "Palm Beach",
+    "state": "FL",
+    "zip": "33480",
+    "holes": "18",
+    "img": "https://www.golfontheocean.com/wp-content/uploads/palm_beach_par_3-1-1024x682.jpg",
+    "alt": "birds eye view of palm beach par 3 sunrise on the atlantic ocean",
+    "website": "https://www.golfontheocean.com/",
+    "type": "public",
+    "rate": {
+        "overall_rating": 8,
+        "rating": {
+            "atmosphere": 8,
+            "amenities": 6,
+            "course_quality": 7,
+            "bang_for_your_buck": 6
+        },
+        "ratings": {
+            "atmosphere": [7, 8, 9, 10, 9],
+            "amenities": [8, 9, 8, 10, 7],
+            "course_quality": [6, 8, 9, 10, 8],
+            "bang_for_your_buck": [9, 8, 6, 8, 7]
+        }
+    }
+},
+    {
+    "name": "The Links at Boynton Beach",
+    "phone": "(561) 742-6501",
+    "address": "8020 Jog Road",
+    "city": "Boynton Beach",
+    "state": "FL",
+    "zip": "33472",
+    "holes": "27",
+    "img": "https://www.boynton-beach.org/sites/default/files/styles/hero_image_style/public/images/Landing%20Pages/Golf/golf-aerial.jpg?h=94a5dfb3&itok=7cKFxs95",
+    "alt": "Birds eye view of the links at boyton beach, showing most of the course holes",
+    "website": "https://www.boynton-beach.org/golf",
+    "type": "public",
+    "rate": {
+        "overall_rating": 8,
+        "rating": {
+            "atmosphere": 6,
+            "amenities": 8.7,
+            "course_quality": 10,
+            "bang_for_your_buck": 4
+        },
+        "ratings": {
+            "atmosphere": [7, 8, 9, 10, 9],
+            "amenities": [8, 9, 8, 10, 7],
+            "course_quality": [6, 8, 9, 10, 8],
+            "bang_for_your_buck": [9, 8, 6, 8, 7]
+        }
+    }
+},
+    {
+    "name": "Southwinds Golf Course",
+    "phone": "(561) 483-1305",
+    "address": "19557 Lyons Rd",
+    "city": "Boca Raton",
+    "state": "FL",
+    "zip": "33434",
+    "holes": "18",
+    "img": "https://www.pbcsouthwindsgolf.com/images/Southwinds3ForwardTee.jpg",
+    "alt": "Golf hole from fairway with overhanging branches",
+    "website": "https://www.pbcsouthwindsgolf.com/",
+    "type": "public",
+    "rate": {
+        "overall_rating": 7,
+        "rating": {
+            "atmosphere": 6,
+            "amenities": 8.7,
+            "course_quality": 6,
+            "bang_for_your_buck": 4
+        },
+        "ratings": {
+            "atmosphere": [7, 8, 9],
+            "amenities": [8, 9, 8],
+            "course_quality": [6, 8, 9],
+            "bang_for_your_buck": [9, 8, 6]
+        }
+    }
+},
+    {
+    "name": "Delray Beach Golf Club",
+    "phone": "(561) 243-7380",
+    "address": "2200 Highland Avenue",
+    "city": "Delray Beach",
+    "state": "FL",
+    "zip": "33445",
+    "holes": "18",
+    "img": "https://www.delraybeachgolfclub.com/wp-content/uploads/sites/6575/2017/08/gallery_pic9.jpg",
+    "alt": "Foggy morning showing tall hanging trees across golf course fairway",
+    "website": "https://www.delraybeachgolfclub.com/",
+    "type": "public",
+    "rate": {
+        "overall_rating": 5,
+        "rating": {
+            "atmosphere": 4,
+            "amenities": 6,
+            "course_quality": 5,
+            "bang_for_your_buck": 6
+        },
+        "ratings": {
+            "atmosphere": [7, 8, 9],
+            "amenities": [8, 9, 8],
+            "course_quality": [6, 8, 9],
+            "bang_for_your_buck": [9, 8, 5]
+        }
+    }
+},
+    {
+    "name": "Atlantic National Golf CLub",
+    "phone": "(561) 969-6600",
+    "address": "6400 Grand Lacuna Blvd.",
+    "city": "Lake Worth",
+    "state": "FL",
+    "zip": "33467",
+    "holes": "18",
+    "img": "https://46z57m1k9p4j11n0do2vitao-wpengine.netdna-ssl.com/wp-content/uploads/2021/07/atlanticnatlgolf.png",
+    "alt": "Golfer putting on the green on hole 2 at Atlantic National",
+    "website": "https://www.atlanticnationalgolfclub.com/",
+    "type": "public",
+    "rate": {
+        "overall_rating": 5,
+        "rating": {
+            "atmosphere": 3,
+            "amenities": 6,
+            "course_quality": 10,
+            "bang_for_your_buck": 3
+        },
+        "ratings": {
+            "atmosphere": [7, 8, 9],
+            "amenities": [8, 9, 8],
+            "course_quality": [6, 8, 9],
+            "bang_for_your_buck": [9, 8, 6]
+        }
+    }
+},
+    {
+    "name": "Killian Greens Golf Club",
+    "phone": "(305) 271-0917",
+    "address": "9980 SW 104th Street",
+    "city": "Miami",
+    "state": "FL",
+    "zip": "33176",
+    "holes": "18",
+    "img": "https://images.squarespace-cdn.com/content/v1/590bc7a615d5dbc6bf3c8344/1528571428584-3VAVEK4X38RTRNS1ZI6W/KG_June18_011.JPG?format=2500w",
+    "alt": "Morning time view showing dew on grass just off the green at Killians golf club",
+    "website": "https://killiangreens.com/",
+    "type": "public",
+    "rate": {
+        "overall_rating": 5,
+        "rating": {
+            "atmosphere": 3,
+            "amenities": 6,
+            "course_quality": 10,
+            "bang_for_your_buck": 3
+        },
+        "ratings": {
+            "atmosphere": [7, 8, 9],
+            "amenities": [8, 9, 8],
+            "course_quality": [6, 8, 9],
+            "bang_for_your_buck": [9, 8, 6]
+        }
+    }
+}
+
+]

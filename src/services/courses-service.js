@@ -46,7 +46,9 @@ exports.updateCourseRating = (req, res) => {
         .doc(req.params.id)
         .update({ rate: newRate })
         .then(() => {
-          res.status(200).send(`Thank you for Rating ${req.params.id} `);
+          res
+            .status(200)
+            .send({ message: `Thank you for Rating ${req.params.id} ` });
         });
     })
     .catch((err) => res.status(500).send(err));

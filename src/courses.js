@@ -25,7 +25,7 @@ exports.getOneCourse = (req, res) => {
       if (doc.exists) {
         res.send(doc.data());
       } else {
-        res.status(404).send('No such course!');
+        res.status(404).send({ message: 'No such course!' });
       }
     })
     .catch((err) => res.status(500).send(err));
