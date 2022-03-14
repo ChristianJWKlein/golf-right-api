@@ -10,6 +10,19 @@ const { connectDb } = require('../../src/connectDb');
 // }
 
 exports.updateCourseRating = (req, res) => {
+  if (
+    req.body.rating.bang_for_your_buck > 10 ||
+    req.body.rating.bang_for_your_buck < 1 ||
+    req.body.rating.atmosphere > 10 ||
+    req.body.rating.atmosphere < 1 ||
+    req.body.rating.amenities > 10 ||
+    req.body.rating.amenities < 1 ||
+    req.body.rating.course_quality > 10 ||
+    req.body.rating.course_quality < 1
+  ) {
+    res.status(403).send({ message: 'Invalid entry' });
+    return;
+  }
   const db = connectDb();
   db.collection('courses')
     .doc(req.params.id)
