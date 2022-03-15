@@ -16,6 +16,23 @@ exports.getAllCourses = (req, res) => {
     .catch((err) => res.status(500).send(err));
 };
 
+exports.getTopThreeCourses = (req, res) => {
+  const db = connectDb();
+  db.collection('courses')
+    .orderBy('rate.overall_rating', 'desc')
+    .limit(3)
+    .get()
+    .then((snapshot) => {
+      const topThreeCourses = snapshot.docs.map((doc) => {
+        let course = doc.data();
+        course.id = doc.id;
+        return course;
+      });
+      res.send(topThreeCourses);
+    })
+    .catch((err) => res.status(500).send(err));
+};
+
 exports.getOneCourse = (req, res) => {
   const db = connectDb();
   db.collection('courses')

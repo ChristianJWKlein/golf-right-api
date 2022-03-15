@@ -1,6 +1,11 @@
 const express = require('express');
 const cors = require('cors');
-const { getAllCourses, getOneCourse, rateCourse } = require('./courses');
+const {
+  getAllCourses,
+  getOneCourse,
+  rateCourse,
+  getTopThreeCourses,
+} = require('./courses');
 
 //const courses = require('./courses.json');
 
@@ -11,6 +16,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/courses', getAllCourses);
+app.get('/courses/top3', getTopThreeCourses);
 app.get('/courses/:id', getOneCourse);
 app.patch('/courses/:id', rateCourse);
 
