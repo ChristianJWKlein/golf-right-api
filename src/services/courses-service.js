@@ -13,12 +13,24 @@ exports.updateCourseRating = (req, res) => {
   if (
     req.body.rating.bang_for_your_buck > 10 ||
     req.body.rating.bang_for_your_buck < 1 ||
+    req.body.rating.bang_for_your_buck === null ||
+    req.body.rating.bang_for_your_buck === undefined ||
+    isNaN(req.body.rating.bang_for_your_buck) ||
     req.body.rating.atmosphere > 10 ||
     req.body.rating.atmosphere < 1 ||
+    req.body.rating.atmosphere === null ||
+    req.body.rating.atmosphere === undefined ||
+    isNaN(req.body.rating.atmosphere) ||
     req.body.rating.amenities > 10 ||
     req.body.rating.amenities < 1 ||
+    req.body.rating.amenities === null ||
+    req.body.rating.amenities === undefined ||
+    isNaN(req.body.rating.amenities) ||
     req.body.rating.course_quality > 10 ||
-    req.body.rating.course_quality < 1
+    req.body.rating.course_quality < 1 ||
+    req.body.rating.course_quality === null ||
+    req.body.rating.course_quality === undefined ||
+    isNaN(req.body.rating.course_quality)
   ) {
     res.status(403).send({ message: 'Invalid entry' });
     return;
