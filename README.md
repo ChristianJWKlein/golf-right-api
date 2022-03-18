@@ -37,3 +37,14 @@ Location: us-east4
 
     1. gcloud app browse
     https://golf-right-1.uk.r.appspot.com/courses
+
+### Testing with jest
+
+install...
+
+    npm i jest
+    npm i supertest
+
+to run test.. npm jest
+
+###

@@ -9,8 +9,6 @@ const {
 
 //const courses = require('./courses.json');
 
-const PORT = process.env.PORT || 3001;
-
 const app = express();
 app.use(cors());
 app.use(express.json());
@@ -20,6 +18,4 @@ app.get('/courses/top3', getTopThreeCourses);
 app.get('/courses/:id', getOneCourse);
 app.patch('/courses/:id', rateCourse);
 
-app.listen(PORT, () => {
-  console.log('Listening on Port: ', PORT);
-});
+module.exports = app;
