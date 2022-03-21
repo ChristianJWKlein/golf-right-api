@@ -1,0 +1,264 @@
+[
+    {
+    "name": "Westchester Country Club",
+    "phone": "(561) 369-1000",
+    "address": "12250 Westchester Club Dr",
+    "city": "Boynton Beach",
+    "county":"Palm Beach",
+    "state": "FL",
+    "zip": "33437",
+    "holes": "27",
+    "img": "https://westchestercc.com/wp-content/uploads/2020/02/course-20.jpg",
+    "alt": "birds eye view of 3 holes from westchester country club",
+    "website": "https://westchestercc.com/",
+    "type": "public",
+    "rate": {
+        "overall_rating": 7,
+        "rating": {
+            "atmosphere": 6,
+            "amenities": 8.7,
+            "course_quality": 10,
+            "bang_for_your_buck": 4
+        },
+        "ratings": {
+            "atmosphere": [],
+            "amenities": [],
+            "course_quality": [],
+            "bang_for_your_buck": []
+        }
+    }
+},
+    {
+    "name": "Osprey Point Golf Course",
+    "phone": "(561) 482-2868",
+    "address": "12551 Glades Rd",
+    "city": "Boca Raton",
+    "county":"Palm Beach",
+    "state": "FL",
+    "zip": "33498",
+    "holes": "18",
+    "img": "https://www.pbcospreypointgolf.com/images/OspreyPoint_Hawk8BackTee.jpg",
+    "alt": "a dogleg right at osprey point",
+    "website": "https://www.pbcospreypointgolf.com/",
+    "type": "public",
+    "rate": {
+        "overall_rating": 8,
+        "rating": {
+            "atmosphere": 7,
+            "amenities": 8.7,
+            "course_quality": 10,
+            "bang_for_your_buck": 8
+        },
+        "ratings": {
+            "atmosphere": [],
+            "amenities": [],
+            "course_quality": [],
+            "bang_for_your_buck": []
+        }
+    }
+},
+    {
+    "name": "Turtle Point Golf Course",
+    "phone": "(800) 654-2924",
+    "address": "1 Turtle Point Ln",
+    "city": "Kiawah Island",
+    "county": "Charleston",
+    "state": "SC",
+    "zip": "29445",
+    "holes": "18",
+    "img": "https://kiawahresort.com/wp-content/uploads/2018/09/TurtlePoint.jpg",
+    "alt": "Turtle Point Golf Course alongside the beach on kiawah island",
+    "website": "https://kiawahresort.com/golf/turtle-point-golf-course/",
+    "type": "public",
+    "rate": {
+        "overall_rating": 7,
+        "rating": {
+            "atmosphere": 6,
+            "amenities": 8.7,
+            "course_quality": 10,
+            "bang_for_your_buck": 4
+        },
+        "ratings": {
+            "atmosphere": [],
+            "amenities": [],
+            "course_quality": [],
+            "bang_for_your_buck": []
+        }
+    }
+},
+    {
+    "name": "Red Reef Park Executive Golf Course",
+    "phone": "(561) 391-5014",
+    "address": "1221 N Ocean Blvd",
+    "city": "Boca Raton",
+    "county":"Palm Beach",
+    "state": "FL",
+    "zip": "33432",
+    "holes": "9",
+    "img": "https://cdn2.chronogolf.com/attachments/images/photo/78458/w768/74994cc3dbdebc7e4626ef1342a6767df610807f.jpg?1554145171",
+    "alt": "red reef golf course hole by the beach",
+    "website": "N/A",
+    "type": "public",
+    "rate": {
+        "overall_rating": 8,
+        "rating": {
+            "atmosphere": 7,
+            "amenities": 8.7,
+            "course_quality": 10,
+            "bang_for_your_buck": 8
+        },
+        "ratings": {
+            "atmosphere": [],
+            "amenities": [],
+            "course_quality": [],
+            "bang_for_your_buck": []
+        }
+    }
+},
+    {
+    "name": "Grenada Golf Course",
+    "phone": "305-460-5367",
+    "address": "2001 Granada Boulevard",
+    "city": "Coral Gables",
+    "state": "FL",
+    "county": "Miami-Dade",
+    "zip": "33134",
+    "holes": "18",
+    "img": "https://www.coralgables.com/media/Community%20Recreation/GOLF/PHOTOS/IMG_2016_10-24-2019%20By%20Jamie.jpg",
+    "alt": "grenada golf course green with pin and infamous tower in the background",
+    "website": "https://www.coralgables.com/granadagolf",
+    "type": "public",
+    "rate": {
+        "overall_rating": 7,
+        "rating": {
+            "atmosphere": 6,
+            "amenities": 8.7,
+            "course_quality": 10,
+            "bang_for_your_buck": 4
+        },
+        "ratings": {
+            "atmosphere": [],
+            "amenities": [],
+            "course_quality": [],
+            "bang_for_your_buck": []
+        }
+    }
+},
+    {
+    "name": "Crandon Golf",
+    "phone": "(305) 361-9129",
+    "address": "6700 Crandon Blvd",
+    "city": "Key Biscayne",
+    "county": "Miami-Dade",
+    "state": "FL",
+    "zip": "33149",
+    "holes": "18",
+    "img": "https://images.contentstack.io/v3/assets/blt99dd26276e65134a/blte5949ebe9cc9286f/5f7f25f2f98ad40e91dc736f/Crandon-aerial-with-added-vibrance-resized-for-web.jpg",
+    "alt": "golf course on the entry way to the florida keys",
+    "website": "https://golfcrandon.com/",
+    "type": "public",
+    "rate": {
+        "overall_rating": 8,
+        "rating": {
+            "atmosphere": 7,
+            "amenities": 8.7,
+            "course_quality": 10,
+            "bang_for_your_buck": 8
+        },
+        "ratings": {
+            "atmosphere": [],
+            "amenities": [],
+            "course_quality": [],
+            "bang_for_your_buck": []
+        }
+    }
+},
+    {
+    "name": "The Club at Emerald Hills",
+    "phone": "(954) 961-4000 ",
+    "address": "4100 NORTH HILLS DRIVE",
+    "city": "Hollywood",
+    "county":"Broward",
+    "state": "FL",
+    "zip": "33021",
+    "holes": "18",
+    "img": "data:image/jpeg;base64,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",
+    "alt": "Lots of water towards the tee shot landing area",
+    "website": "https://www.theclubatemeraldhills.com/",
+    "type": "public",
+    "rate": {
+        "overall_rating": 8,
+        "rating": {
+            "atmosphere": 7,
+            "amenities": 8.7,
+            "course_quality": 10,
+            "bang_for_your_buck": 8
+        },
+        "ratings": {
+            "atmosphere": [],
+            "amenities": [],
+            "course_quality": [],
+            "bang_for_your_buck": []
+        }
+    }
+},
+    {
+    "name": "Winston Trails Golf Club",
+    "phone": "561-439-3700",
+    "address": "6101 Winston Trails Boulevard",
+    "city": "Lake Worth",
+    "state": "FL",
+    "county": "Palm Beach",
+    "zip": "33463",
+    "holes": "18",
+    "img": "http://www.winstontrailsgolfclub.com/images/coursetour/13.jpg",
+    "alt": "Straightaway Par 3 partially over water to a large predominantly flat putting green. The wind always seems to be blowing towards the water",
+    "website": "http://www.winstontrailsgolfclub.com/",
+    "type": "public",
+    "rate": {
+        "overall_rating": 7,
+        "rating": {
+            "atmosphere": 6,
+            "amenities": 8.7,
+            "course_quality": 10,
+            "bang_for_your_buck": 4
+        },
+        "ratings": {
+            "atmosphere": [],
+            "amenities": [],
+            "course_quality": [],
+            "bang_for_your_buck": []
+        }
+    }
+},
+    {
+    "name": "Black Mountain Golf Course",
+    "phone": "(828) 669-2710",
+    "address": "17 Ross Drive",
+    "city": "Black Mountain",
+    "county": "Buncombe",
+    "state": "NC",
+    "zip": "28711",
+    "holes": "18",
+    "img": "https://images.squarespace-cdn.com/content/v1/5865695a2994ca78b50b81c0/1483373173568-ANJQEI5NCINRRUCY3TN9/image-asset.jpeg?format=1000w",
+    "alt": "golf course green with pin over-looking carolina mountains",
+    "website": "https://www.blackmountaingolf.org/",
+    "type": "public",
+    "rate": {
+        "overall_rating": 8,
+        "rating": {
+            "atmosphere": 7,
+            "amenities": 8.7,
+            "course_quality": 10,
+            "bang_for_your_buck": 8
+        },
+        "ratings": {
+            "atmosphere": [],
+            "amenities": [],
+            "course_quality": [],
+            "bang_for_your_buck": []
+        }
+    }
+}
+    
+]

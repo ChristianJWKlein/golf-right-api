@@ -4,6 +4,7 @@ const { updateCourseRating } = require('./services/courses-service');
 exports.getAllCourses = (req, res) => {
   const db = connectDb();
   db.collection('courses')
+    .orderBy('rate.overall_rating', 'desc')
     .get()
     .then((snapshot) => {
       const courseList = snapshot.docs.map((doc) => {

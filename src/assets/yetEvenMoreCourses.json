@@ -1,0 +1,264 @@
+[
+    {
+    "name": "Innisbrook Golf Resort: Copperhead Course",
+    "phone": "(888) 794-8627",
+    "address": "36750 U.S. HIGHWAY 19 NORTH",
+    "city": "Palm Harbor",
+    "county":"Pinellas",
+    "state": "FL",
+    "zip": "34684",
+    "holes": "18",
+    "img": "https://www.innisbrookgolfresort.com/images/interior_hero/chtopiaryheader.jpg",
+    "alt": "Topiary of pushes to read copperhead",
+    "website": "https://www.innisbrookgolfresort.com/golf/copperhead-course",
+    "type": "Resort",
+    "rate": {
+        "overall_rating": 7,
+        "rating": {
+            "atmosphere": 6,
+            "amenities": 8.7,
+            "course_quality": 10,
+            "bang_for_your_buck": 4
+        },
+        "ratings": {
+            "atmosphere": [],
+            "amenities": [],
+            "course_quality": [],
+            "bang_for_your_buck": []
+        }
+    }
+},
+    {
+    "name": "Lake Region Country Club",
+    "phone": "(863) 324-6666",
+    "address": "4200 Country Club Road South",
+    "city": "Winter Haven",
+    "county":"Polk",
+    "state": "FL",
+    "zip": "33881",
+    "holes": "18",
+    "img": "https://www.ccofwinterhaven.com/images/dynamic/getImage.gif?ID=100009",
+    "alt": "golf course next to lake in central florida",
+    "website": "https://www.ccofwinterhaven.com/",
+    "type": "private",
+    "rate": {
+        "overall_rating": 8,
+        "rating": {
+            "atmosphere": 7,
+            "amenities": 8.7,
+            "course_quality": 10,
+            "bang_for_your_buck": 8
+        },
+        "ratings": {
+            "atmosphere": [],
+            "amenities": [],
+            "course_quality": [],
+            "bang_for_your_buck": []
+        }
+    }
+},
+    {
+    "name": "Pompano Beach Municpal Golf Course",
+    "phone": "954.944.5982",
+    "address": "1101 N Federal Hwy",
+    "city": "Pompano Beach",
+    "county": "Broward",
+    "state": "FL",
+    "zip": "33062",
+    "holes": "18",
+    "img": "https://gngcd-qnewmedia2.netdna-ssl.com/assets/img/pompano-beach/thumbs/2.jpg?v3",
+    "alt": "the flag of a front pin location at the pines course at pompano beach",
+    "website": "https://parks.pompanobeachfl.gov/golf",
+    "type": "public",
+    "rate": {
+        "overall_rating": 7,
+        "rating": {
+            "atmosphere": 6,
+            "amenities": 8.7,
+            "course_quality": 10,
+            "bang_for_your_buck": 4
+        },
+        "ratings": {
+            "atmosphere": [],
+            "amenities": [],
+            "course_quality": [],
+            "bang_for_your_buck": []
+        }
+    }
+},
+    {
+    "name": "Boca Greens Golf and Country Club",
+    "phone": "(561) 852-8800",
+    "address": "19642 TROPHY DRIVE",
+    "city": "Boca Raton",
+    "county":"Palm Beach",
+    "state": "FL",
+    "zip": "33498",
+    "holes": "18",
+    "img": "https://www.bocagreenscountryclub.com/media/com_twojtoolbox/course%2015.jpg",
+    "alt": "Sunset at boca greens golf course hole.  A Joe Lee designed classic",
+    "website": "https://www.bocagreenscountryclub.com/",
+    "type": "public",
+    "rate": {
+        "overall_rating": 8,
+        "rating": {
+            "atmosphere": 7,
+            "amenities": 8.7,
+            "course_quality": 10,
+            "bang_for_your_buck": 8
+        },
+        "ratings": {
+            "atmosphere": [],
+            "amenities": [],
+            "course_quality": [],
+            "bang_for_your_buck": []
+        }
+    }
+},
+    {
+    "name": "Lake Worth Beach Golf Club",
+    "phone": "561-582-9713",
+    "address": "One 7th Avenue North",
+    "city": "Lake Worth",
+    "state": "FL",
+    "county": "Palm Beach",
+    "zip": "33460",
+    "holes": "18",
+    "img": "https://www.lakeworthbeachgolfclub.com/wp-content/uploads/sites/7861/2018/06/photo_5.jpg",
+    "alt": "sunrise overlooking intracoastal at lake worth golf club",
+    "website": "https://www.lakeworthbeachgolfclub.com/",
+    "type": "public",
+    "rate": {
+        "overall_rating": 7,
+        "rating": {
+            "atmosphere": 6,
+            "amenities": 8.7,
+            "course_quality": 10,
+            "bang_for_your_buck": 4
+        },
+        "ratings": {
+            "atmosphere": [],
+            "amenities": [],
+            "course_quality": [],
+            "bang_for_your_buck": []
+        }
+    }
+},
+    {
+    "name": "Lansbrook Golf CLub",
+    "phone": "(727) 784-7333",
+    "address": "4605 Village Center Drive",
+    "city": "Palm Harbor",
+    "county": "Pinellas",
+    "state": "FL",
+    "zip": "34685",
+    "holes": "18",
+    "img": "https://www.lansbrook-golf.com/golf/proto/lansbrook-golfmail/images/banners/slideshow/slide4.jpg",
+    "alt": "a gutsy shot is required needing to carry long over water on this long par 3 at Lansbrook golf club",
+    "website": "https://www.lansbrook-golf.com/",
+    "type": "public",
+    "rate": {
+        "overall_rating": 8,
+        "rating": {
+            "atmosphere": 7,
+            "amenities": 8.7,
+            "course_quality": 10,
+            "bang_for_your_buck": 8
+        },
+        "ratings": {
+            "atmosphere": [],
+            "amenities": [],
+            "course_quality": [],
+            "bang_for_your_buck": []
+        }
+    }
+},
+    {
+    "name": "Pheasant Run Golf Club",
+    "phone": "(734) 397-6460",
+    "address": "46500 Summit Parkway",
+    "city": "Canton",
+    "county":"Wayne",
+    "state": "MI",
+    "zip": "48188",
+    "holes": "27",
+    "img": "data:image/jpeg;base64,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",
+    "alt": "luscious green and fairway with bunkers",
+    "website": "https://www.golfprgc.org/159/Pheasant-Run-Golf-Club",
+    "type": "public",
+    "rate": {
+        "overall_rating": 8,
+        "rating": {
+            "atmosphere": 7,
+            "amenities": 8.7,
+            "course_quality": 10,
+            "bang_for_your_buck": 8
+        },
+        "ratings": {
+            "atmosphere": [],
+            "amenities": [],
+            "course_quality": [],
+            "bang_for_your_buck": []
+        }
+    }
+},
+    {
+    "name": "Abacoa Golf Club",
+    "phone": "(561) 622-0036",
+    "address": "105 Barbados Dr.",
+    "city": "Jupiter",
+    "state": "FL",
+    "county": "Palm Beach",
+    "zip": "33458",
+    "holes": "18",
+    "img": "https://13x3gy1axf1m3xhb0h1tjwsn-wpengine.netdna-ssl.com/wp-content/uploads/2020/12/golf-course-landscape-08-600x400.jpg",
+    "alt": "center of the green pin on golf hole at abacoa golf course",
+    "website": "https://abacoagolfclub.com/?doing_wp_cron=1647819024.4230101108551025390625",
+    "type": "public",
+    "rate": {
+        "overall_rating": 7,
+        "rating": {
+            "atmosphere": 6,
+            "amenities": 8.7,
+            "course_quality": 10,
+            "bang_for_your_buck": 4
+        },
+        "ratings": {
+            "atmosphere": [],
+            "amenities": [],
+            "course_quality": [],
+            "bang_for_your_buck": []
+        }
+    }
+},
+    {
+    "name": "Captiva Course at South Seas Island Resort",
+    "phone": "(866) 565-5089",
+    "address": "5400 Plantation Rd",
+    "city": "Captiva",
+    "county": "Lee",
+    "state": "FL",
+    "zip": "33924",
+    "holes": "9",
+    "img": "https://www.southseas.com/content/uploads/2017/07/Golf-1-1646x778.jpg",
+    "alt": "the infamous 9th hole at captiva golf course, with the gulf of mexico quietely spectating",
+    "website": "https://www.southseas.com/see-and-do/golf-and-tennis/the-captiva-course/",
+    "type": "resort",
+    "rate": {
+        "overall_rating": 8,
+        "rating": {
+            "atmosphere": 7,
+            "amenities": 8.7,
+            "course_quality": 10,
+            "bang_for_your_buck": 8
+        },
+        "ratings": {
+            "atmosphere": [],
+            "amenities": [],
+            "course_quality": [],
+            "bang_for_your_buck": []
+        }
+    }
+}
+    
+]
