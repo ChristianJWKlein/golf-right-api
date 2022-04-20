@@ -1,6 +1,6 @@
-const sut = require('../src/index');
+const { getAllCourses } = require('../src/courses');
 const supertest = require('supertest');
-// const connectDb = require('../src/connectDb');
+const connectDb = require('../src/connectDb');
 
 // describe('GET /courses', () => {
 //   it('responds with json', async () => {
@@ -19,6 +19,18 @@ const supertest = require('supertest');
 // });
 
 // expect(actualResult).toContain(expectedResult);
+
+const mockRequest = () => {
+  return {};
+};
+
+const mockResponse = () => {
+  const res = {};
+  res.send = jest
+    .fn()
+    .mockReturnValue([{ name: 'Palm Beach National Golf Club' }]);
+  res.status = jest.fn().mockReturnValue(200);
+};
 
 describe('GET /courses', function () {
   it('responds with json', async (done) => {

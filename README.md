@@ -45,6 +45,7 @@ install...
     npm i jest
     npm i supertest
 
-to run test.. npm jest
+to run test....
+TODO write instrutions for running tests.
 
 ###
