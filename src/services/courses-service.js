@@ -1,4 +1,4 @@
-const { connectDb } = require('../../src/connectDb');
+const { connectDb } = require('../../src/connectDb')
 
 // create an update course rating function;
 // params are courseId and rating object;
@@ -32,39 +32,39 @@ exports.updateCourseRating = (req, res) => {
     req.body.rating.course_quality === undefined ||
     isNaN(req.body.rating.course_quality)
   ) {
-    res.status(403).send({ message: 'Invalid entry' });
-    return;
+    res.status(403).send({ message: 'Invalid entry' })
+    return
   }
-  const db = connectDb();
+  const db = connectDb()
   db.collection('courses')
     .doc(req.params.id)
     .get()
     .then((doc) => {
-      const oldData = doc.data();
-      let newRate = oldData.rate;
+      const oldData = doc.data()
+      let newRate = oldData.rate
 
       for (const key of Object.keys(req.body.rating)) {
-        const newRating = Number(req.body.rating[key]);
-        let newRatings = oldData.rate.ratings[key] || [];
-        newRatings.push(newRating);
+        const newRating = Number(req.body.rating[key])
+        let newRatings = oldData.rate.ratings[key] || []
+        newRatings.push(newRating)
         // res.send({ key, newRating, newRatings });
         // return;
-        const newCount = newRatings.length;
+        const newCount = newRatings.length
         const newRatingsSum = newRatings.reduce(
           (accum, curr) => accum + curr,
           0
-        );
-        const newAvgRating = newRatingsSum / newCount;
-        newRate.rating[key] = newAvgRating;
-        newRate.ratings[key] = newRatings;
+        )
+        const newAvgRating = newRatingsSum / newCount
+        newRate.rating[key] = newAvgRating
+        newRate.ratings[key] = newRatings
       }
-      // now update overall rating:
+      //  now update overall rating:
       newRate.overall_rating =
         (newRate.rating.atmosphere +
           newRate.rating.amenities +
           newRate.rating.course_quality +
           newRate.rating.bang_for_your_buck) /
-        4;
+        4
 
       //res.send(newRate);
       db.collection('courses')
@@ -73,8 +73,8 @@ exports.updateCourseRating = (req, res) => {
         .then(() => {
           res
             .status(200)
-            .send({ message: `Thank you for Rating ${req.params.id} ` });
-        });
+            .send({ message: `Thank you for Rating ${req.params.id} ` })
+        })
     })
-    .catch((err) => res.status(500).send(err));
-};
+    .catch((err) => res.status(500).send(err))
+}
